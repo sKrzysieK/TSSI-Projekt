@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Krzysztof Śliwiński">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona Główna | INFORM</title>
+    <link rel="stylesheet" href="./css/stylesheet.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="./images/logo_new.png" alt="This is website logo!">
+        </div>
+        <div id="navbar">
+            <ul>
+                <li><a href="./index.html">STRONA GŁÓWNA</a></li>
+                <li class="dropdown">
+                    <a href="#about" class="dropbtn">O NAS</a>
+                    <div class="dropdown-content">
+                        <a href="#what_we_do">Czym się zajmujemy?</a>
+                        <a href="#offer">Oferta</a>
+                        <a href="#additional_info">Informacje dodatkowe</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#partnership" class="dropbtn">WSPÓŁPRACA</a>
+                    <div class="dropdown-content">
+                        <a href="#courses">Kursy</a>
+                        <a href="#lectures">Wykłady</a>
+                    </div>
+                </li>
+                <li><a href="#contact">KONTAKT</a></li>
+            </ul>
+        </div>
+    </header>
+
+        <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+        <img src="./images/1.jpg" style="width:100%">
+        </div>
+    
+        <div class="mySlides fade">
+        <img src="./images/2.jpg" style="width:100%">
+        </div>
+    
+        <div class="mySlides fade">
+        <img src="./images/3.jpg" style="width:100%">
+        </div>
+    
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- The dots/circles -->
+        <div id="dots" style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+
+    <div id="upper_content">
+        <div id="poster">
+            <img src="./images/logo_new.png" alt="This is website logo!">
+        </div>
+        <div id="info">
+            <h6>PROFESJONALIZM NA WYCIĄGNIĘCIE RĘKI!</h6>
+            <p>Czy zawsze marzyłeś o zostaniu profesjonalistą w dziedzinie informatyki?</p>
+            <p>A może informatyka jest dla ciebie tylko hobby, które chciałbyś rozwijać?</p>
+            <p>Nie wahaj się dłużej!</p>
+            <p>Dołącz do nas! Z naszą pomocą osiągniesz wszystkie swoje cele!</p>
+        </div>
+    </div>
+
+    <div id="bottom_content">
+        <img src="./images/bottom.png" alt="The picture shows coaches!">
+    </div>
+
+    <footer>
+        <div id="logo_black">
+            <img src="./images/logo_new_white.png" alt="Black version of our logo">
+        </div>
+        <div id="text">
+            <p id="copyright_text">&copy;2020 INFORM SP. Z O.O.</p>
+            <p id="socialmedia_text">Znajdź nas w mediach społecznościowych!</p>
+        </div>
+        <div id="images">
+            <a href="#ig"><img src="./images/ig_icon.png" id="ig" alt="Instagram icon"></a>
+            <a href="#fb"><img src="./images/fb_icon.png" id="fb" alt="Facebook icon"></a>
+        </div>
+    </footer>
+    
+    <script src="./js/slideshow.js"></script>
+    
+</body>
+</html>
